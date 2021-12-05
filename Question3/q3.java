@@ -32,6 +32,7 @@ class Solution {
                         throw new Exception("Incorrect string in the data file");
                 }
             }
+            sc.close();
         } catch (Exception e) {
             System.out.println(e.getMessage());
             e.printStackTrace();

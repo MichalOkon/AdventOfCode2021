@@ -19,6 +19,7 @@ class Solution {
             while (sc.hasNext()) {
                 countNumbers(numCount, sc.next());
             }
+            sc.close();
 
             // Put the final results together
             String resultGamma = "";

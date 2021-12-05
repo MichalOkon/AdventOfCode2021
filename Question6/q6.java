@@ -14,6 +14,7 @@ class Solution {
             while (sc.hasNext()) {
                 numList.add(sc.next());
             }
+            sc.close();
 
             String oxygenRating = findFilter(numList, 0, true);
             int oxygenResult = Integer.parseUnsignedInt(oxygenRating, 2);

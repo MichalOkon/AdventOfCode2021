@@ -36,6 +36,7 @@ class Solution {
                 }
                 i++;
             }
+            sc.close();
             System.out.println("The depth increased: " + increase_count + " times.");
 
         } catch (Exception e) {

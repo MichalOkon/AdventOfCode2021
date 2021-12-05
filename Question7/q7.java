@@ -29,6 +29,7 @@ class Solution {
                     }
                 }
             }
+            sc.close();
 
             // Iterate over each number and check each board with that number
             for (int number : numbers) {
