@@ -3,9 +3,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 class Solution {
-    public static final int START_DAYS = 256;
-    public static final int FRESH_TIMER = 9;
-    public static final int OLD_TIMER = 7;
 
     public static void main(String[] args) {
         try {
